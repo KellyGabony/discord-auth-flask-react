@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00BAF0;
+    background: linear-gradient(to left, purple, cornflowerblue);
+    color: #FFF;
+    height: 50px;
+    padding: 1em;
+}
+
+.logo {
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+
+.logo > img{
+    height: 32px;
+    width: 32px;
+}
+
+.user-button{
+    float: right;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: #26262b;
+    border: 2px solid #7289da;
+    border-radius: 40px;
+    height: 45px;
+    width: 150px;
+    /*cursor: pointer;*/
+}
+
+.user-button > img{
+    margin-left: 5px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.user-button > span{
+    overflow: clip;
+    font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    margin-left: 5px;
+    width: auto;
+}
+
+.user-menu {
+    display: flex;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.punct-up{
+    font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 105px;
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    border: 1px solid #7289da;
+    border-left: 2px solid #7289da;
+    border-top-right-radius: 40px;
+    height: 2em;
+    padding: 0.5em;
+}
+
+
+.punct-down{
+    font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 105px;
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    border: 1px solid #7289da;
+    border-left: 2px solid #7289da;
+    border-bottom-right-radius: 40px;
+    height: 2em;
+    padding: 0.5em;
+}
